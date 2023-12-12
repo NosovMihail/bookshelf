@@ -12,7 +12,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Table(name="GENRE")
 public class Genre {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
